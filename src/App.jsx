@@ -39,7 +39,6 @@ function App() {
                 </section>
                 <section className="projects" id="projects">
                     <h2>Projects</h2>
-
                 </section>
                 <section className="contact">
                     <h1>Contact Me</h1>
