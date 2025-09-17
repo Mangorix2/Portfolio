@@ -29,7 +29,7 @@ main {
     background-color: black;
 }
 
- /*Startstyling*/
+/*Startstyling*/
 .Start-container {
     padding: 1rem;
     background-color: black;
@@ -55,19 +55,20 @@ main {
     margin-left: auto;
 }
 
-.sousitem{
+.sousitem {
     margin: 1rem;
 }
 
-h2{
+h2 {
     font-size: 1.5rem;
 }
 
-p{
+p {
     font-size: 1.2rem;
 }
- /* End start
- # Navigation */
+
+/* End start
+# Navigation */
 
 .navbar {
     display: flex;
@@ -92,8 +93,47 @@ p{
 /* End Nav
 Projects */
 
-.projects{
+.projects {
     padding: 2rem;
 }
 
+.project-card{
+    padding: 1rem;
+    display: flex;
+    justify-content: left;
+    flex-direction: row-reverse;
+}
+
+.card {
+    width: 15rem;
+    background: grey;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    padding: 20px;
+}
+
+.card h2 {
+    margin: 0 0 10px;
+    font-size: 20px;
+}
+
+.card p {
+    margin: 0 0 15px;
+    color: white;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+a{
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+/**/
+
+.contact {
+    padding: 2rem;
+}
 

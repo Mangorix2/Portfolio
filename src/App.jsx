@@ -1,4 +1,4 @@
-import { SocialIcon } from 'react-social-icons'
+import {SocialIcon} from 'react-social-icons'
 import picture from './assets/me_with_ESSEN.jpg'
 import './App.css'
 
@@ -9,13 +9,12 @@ function App() {
             <header id="header">
                 <nav className="navbar">
                     <div className="left">
-                        <SocialIcon url="https://github.com/Mangorix2" fgColor="white" bgColor="black" />
+                        <SocialIcon url="https://github.com/Mangorix2" fgColor="white" bgColor="black"/>
+                        <SocialIcon url="mailto:deforgelucien@gmail.com" fgColor="white" bgColor="black" />
                     </div>
                     <div className="right">
                         <a className="anchor" href="#aboutMe">About Me</a>
-                        <a className="anchor" href="#skills">Skills</a>
                         <a className="anchor" href="#projects">Projects</a>
-                        <a className="anchor" href="#contact">Contact Me</a>
                     </div>
                 </nav>
             </header>
@@ -38,10 +37,27 @@ function App() {
                     <img className="item" src={picture}/>
                 </section>
                 <section className="projects" id="projects">
-                    <h2>Projects</h2>
-                </section>
-                <section className="contact">
-                    <h1>Contact Me</h1>
+                    <h1>Projects</h1>
+                    <div className="project-card">
+                    <a href="about:blank">
+                        <div className="card">
+                            <h2>This is a project</h2>
+                            <p>And it works</p>
+                        </div>
+                    </a>
+                    <a href="about:blank">
+                        <div className="card">
+                            <h2>This is a project 2</h2>
+                            <p>And it works 2</p>
+                        </div>
+                    </a>
+                    <a href="https://github.com/Mangorix2/GameOfLife">
+                        <div className="card">
+                            <h2>Game Of Life</h2>
+                            <p>Zellensimulation in der Konsole mit Java</p>
+                        </div>
+                    </a>
+                    </div>
                 </section>
             </main>
             <footer id="footer">
