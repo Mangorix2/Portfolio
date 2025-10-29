@@ -137,3 +137,48 @@ a{
     padding: 2rem;
 }
 
+@media (max-width: 768px) {
+    .Start-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item {
+        height: auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .item img {
+        margin-left: 0;
+        width: 80%;
+        height: auto;
+        margin-top: 1rem;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar .right {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .navbar .anchor {
+        margin: 0.5em;
+    }
+
+    .project-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-card a {
+        margin-bottom: 1rem;
+    }
+}
+
