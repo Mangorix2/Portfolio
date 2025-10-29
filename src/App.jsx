@@ -28,9 +28,7 @@ function App() {
                         <div className="sousitem">
                             <h1 id="aboutMe">About me</h1>
                             <p>Ich bin gerade in der IMS und mache dort einen Abschluss als Informatiker
-                                Applikationsentwickler EFZ und einer BMS Wirtschaft und Recht. Im Moment bin noch
-                                Schüler an der IMS in
-                                Winterthur. In meiner Freizeit bin ich Leiter und Matchef in der Jubla
+                                Applikationsentwickler EFZ und einer BMS Wirtschaft und Recht. In meiner Freizeit bin ich Leiter und Matchef in der Jubla
                                 Greifensee-Nänikon. Auch trainiere ich Hapkido.</p>
                         </div>
                     </div>
